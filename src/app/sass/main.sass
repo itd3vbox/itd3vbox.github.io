@@ -1,0 +1,57 @@
+\:root
+    --color-1: #000000
+    --color-2: #ffffff
+
+    --color-10: #1a1a1a
+    --color-11: #262626
+    --color-12: #333333
+    --color-13: #404040
+    --color-14: #4d4d4d
+    --color-15: #595959
+    --color-16: #666666
+    --color-17: #737373
+    --color-18: #808080
+    --color-19: #8c8c8c
+    --color-20: #999999
+
+    --color-light-100: #f5f5f5
+    --color-light-101: #e8e8e8
+    --color-light-102: #dbdbdb
+    --color-light-103: #cecece
+    --color-light-104: #c1c1c1
+    --color-light-105: #b4b4b4
+    --color-light-106: #a7a7a7
+    --color-light-107: #9a9a9a
+    --color-light-108: #8d8d8d
+    --color-light-109: #808080
+    --color-light-110: #737373
+
+*
+    box-sizing: border-box
+    padding: 0
+    margin: 0
+
+a
+    text-decoration: none
+    color: var(--color-20)
+
+button
+    border: none
+    outline: none
+    cursor: pointer
+
+html,
+body
+    width: 100%
+    height: 100%
+    background-color:  var(--color-10)
+    color: var(--color-20)
+
+body
+    display: flex
+    flex-direction: column
+
+@import './_page-animation'
+@import './_page-top'
+@import './_page-main'
+@import './_page-end'
