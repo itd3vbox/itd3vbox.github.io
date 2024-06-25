@@ -28,6 +28,7 @@ export default function PageTop()
               <ul>
                 <li>
                   <Link href='/projects'>Projects</Link>
+                  <Link href='/docs'>Docs</Link>
                 </li>
                 <li className="btn-animation">
                   <button type="button"
