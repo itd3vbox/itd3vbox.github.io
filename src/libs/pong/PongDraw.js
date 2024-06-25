@@ -76,8 +76,6 @@ export default  class PongDraw
         this.ball.geometry = new THREE.PlaneGeometry(this.pong.getData().ball.width, this.pong.getData().ball.height)
 
         this.camera.position.z = height / (2 * Math.tan(Math.PI * this.camera.fov / 360))
-        
-        this.start()
     }
 
     setupField()
