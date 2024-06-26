@@ -36,6 +36,26 @@ export default class Docs extends React.Component<any, DocsState>
 
     renderDocs()
     {
+        const description = (data: any) => {
+            let description: string = ''
+            const langs: string[] = ['fr', 'en']
+            if (data instanceof Object)
+            {
+                for (const lang of langs)
+                {
+                    if (data[lang])
+                    {
+                        description = data[lang]
+                        console.log(description)
+                        break
+                    }
+                }
+            }
+            else if (typeof data === 'string')
+                description = data
+            return description
+        }
+
         const elements: any = []
         const docs = this.data.getData()
         console.log(docs, docs.length)
@@ -43,7 +63,7 @@ export default class Docs extends React.Component<any, DocsState>
         {
             const doc = docs[index]
             elements.push(
-                <div className="doc">
+                <div className="doc" key={ index + 1 }>
                     <div className="block-top">
                         <div className="icon">
                             <DocumentIcon />
@@ -52,7 +72,7 @@ export default class Docs extends React.Component<any, DocsState>
                     </div>
                     <div className="block-core">
                         <h6>{ doc.title }</h6>
-                        <p>{ doc.description }</p>
+                        <p>{ description(doc.description) }</p>
                     </div>
                 </div>
             )

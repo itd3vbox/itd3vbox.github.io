@@ -41,7 +41,9 @@ export default [
     },
     {
         title: 'Laravel',
-        description: '',
+        description: {
+            'fr': 'Un framework PHP bien documenté, basé sur des composants Symfony.',
+        },
         readme: '#',
     },
 ]
