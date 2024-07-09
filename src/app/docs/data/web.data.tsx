@@ -1,49 +1,42 @@
 export default [
     {
         title: 'HTML',
-        description: '',
-        readme: '#',
+        description: 'The language to organize the content of web pages.',
+        readme: 'https://github.com/itd3vbox/itd3vbox/blob/main/notes/html.en.md',
     },
     {
         title: 'CSS',
-        description: '',
-        readme: '#',
+        description: 'The language to make the web pages beautiful.',
+        readme: 'https://github.com/itd3vbox/itd3vbox/blob/main/notes/css.en.md',
     },
     {
-        title: 'Javascript',
-        description: '',
-        readme: '#',
+        title: 'JavaScript',
+        description: 'The language to make the web pages dynamic.',
+        readme: 'https://github.com/itd3vbox/itd3vbox/blob/main/notes/javascript.en.md',
     },
     {
         title: 'Webpack',
-        description: '',
+        description: 'A tool to bundle the front-end part, making it easier to maintain.',
         readme: '#',
     },
     {
         title: 'SASS',
-        description: '',
+        description: 'A language to split styling (CSS) into several parts.',
         readme: '#',
     },
     {
-        title: 'React',
-        description: '',
-        readme: '#',
-    },
-    {
-        title: 'Next',
-        description: '',
+        title: 'Next.js',
+        description: 'The React framework to build single-page applications.',
         readme: '#',
     },
     {
         title: 'PHP',
-        description: '',
+        description: 'The back-end language to build web applications.',
         readme: '#',
     },
     {
         title: 'Laravel',
-        description: {
-            'fr': 'Un framework PHP bien documenté, basé sur des composants Symfony.',
-        },
+        description: 'The back-end framework in PHP to build applications easily.',
         readme: '#',
     },
-]
+];

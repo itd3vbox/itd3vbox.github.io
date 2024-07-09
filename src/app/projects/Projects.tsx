@@ -43,13 +43,15 @@ export default class Projects extends React.Component<any, ProjectsState>
             const project = projects[index]
             elements.push(
                 <article className="project" key={ index + 1 }>
-                    <img src="" alt="" />
-                    <div className="wrapper">
-                        <a href={ project.link } target="_blank">Voir</a>
-                        <h3>{ project.name }</h3>
-                        <p className="decription-short">
-                            { project.description }
-                        </p>
+                    <div className="block-top">
+                        <div className="icon">
+                            <SparklesIcon />
+                        </div>
+                        <a href={ project.link } target="_blank" className="link">GITHUB</a>
+                    </div>
+                    <div className="block-core">
+                        <h6>{ project.name }</h6>
+                        <p>{ project.description }</p>
                     </div>
                 </article>
             )
