@@ -9,6 +9,7 @@ import {
 import Data from "./data/Data";
 
 import './sass/main.sass'
+import Project from "./Project";
 
 interface ProjectsProps
 {
@@ -42,18 +43,9 @@ export default class Projects extends React.Component<any, ProjectsState>
         {
             const project = projects[index]
             elements.push(
-                <article className="project" key={ index + 1 }>
-                    <div className="block-top">
-                        <div className="icon">
-                            <SparklesIcon />
-                        </div>
-                        <a href={ project.link } target="_blank" className="link">GITHUB</a>
-                    </div>
-                    <div className="block-core">
-                        <h6>{ project.name }</h6>
-                        <p>{ project.description }</p>
-                    </div>
-                </article>
+                <Project
+                    key={ index + 1 } 
+                    data={ project } />
             )
         }
         return elements

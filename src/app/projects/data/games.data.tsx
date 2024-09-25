@@ -1,7 +1,8 @@
 export default [
     {
-        title: 'Pong',
+        name: 'Pong',
         description: 'The online Pong game!',
         link: '#',
+        groups: ['Game']
     },
 ]

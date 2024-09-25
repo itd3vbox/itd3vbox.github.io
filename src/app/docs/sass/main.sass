@@ -11,6 +11,7 @@
         max-width: 1000px
         margin: 0 auto
         display: flex
+        flex-wrap: wrap
         gap: 50px
 
         .block-left,
@@ -33,3 +34,14 @@
         gap: 50px
         
         @import './_doc'
+
+    @media ( max-width: 1000px )
+        .d-top
+            .block-left
+                width: 100%
+
+            .block-right
+                flex: auto
+                width: 100%
+            
+      

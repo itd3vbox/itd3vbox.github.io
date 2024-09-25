@@ -1,3 +1,4 @@
+import SparksData from "./sparks.data"
 import GamesData from "./games.data"
 
 export default class Data
@@ -17,8 +18,9 @@ export default class Data
     private load(): void
     {
         this.data = [
-            ...this.data, 
-            ...GamesData
+            ...this.data,
+            ...SparksData,
+            ...GamesData,
         ]
     }
 }

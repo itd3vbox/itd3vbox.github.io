@@ -11,6 +11,7 @@
         max-width: 1000px
         margin: 0 auto
         display: flex
+        flex-wrap: wrap
         gap: 50px
 
         .block-left,
@@ -34,4 +35,15 @@
         gap: 25px
 
         @import './_project'
+
+    
+    @media ( max-width: 1000px )
+        .p-top
+            .block-left
+                width: 100%
+
+            .block-right
+                flex: auto
+                width: 100%
+            
       
