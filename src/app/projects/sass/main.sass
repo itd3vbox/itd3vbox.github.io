@@ -22,11 +22,41 @@
 
         .block-left
             width: 300px
+            --s: 100px
+            --c1: #000000
+            --c2: #212121
+            --_g: var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%, var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%
+            background: radial-gradient(100% 100% at 100% 0,var(--c1) 4%,var(--_g),#0008 96%,#0000), radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%) var(--c1)
+            background-size: var(--s) var(--s)
+                
 
         .block-right
             flex: 1
+            box-sizing: border-box
+            padding: 25px
+            display: flex
+            justify-content: flex-end
+            align-items: center
+            --s: 150px
+            --c1: #000000
+            --c2: #212121
+            --_g: var(--c1) 6.1%,var(--c2)  6.4% 18.6%,var(--c1) 18.9% 31.1%, var(--c2) 31.4% 43.6%,var(--c1) 43.9% 56.1%,var(--c2) 56.4% 68.6%,#0000 68.9%
+            background: radial-gradient(var(--s) at 100% 0   ,var(--_g)), radial-gradient(var(--s) at 0    0   ,var(--_g)), radial-gradient(var(--s) at 0    100%,var(--_g)), radial-gradient(var(--s) at 100% 100%,var(--_g)) var(--c1)
+            background-size: var(--s) var(--s)
+
+            .text
+                max-width: 400px
+                text-align: justify
+    
+                h1
+                    font-size: 2rem
+                
+                p
+                    font-size: 1.1rem
+                    margin-top: 25px
 
     .p-list
+        width: 100%
         max-width: 1000px
         display: grid
         grid-template-columns: repeat(auto-fill, 400px)
@@ -45,5 +75,8 @@
             .block-right
                 flex: auto
                 width: 100%
+
+    @media ( max-width: 450px )
+        .p-list
+            grid-template-columns: repeat(auto-fill, 100%)
             
-      

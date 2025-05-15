@@ -57,7 +57,12 @@ export default class Projects extends React.Component<any, ProjectsState>
             <div id="projects">
                  <div className="p-top">
                     <div className="block-left"></div>
-                    <div className="block-right"></div>
+                    <div className="block-right">
+                        <div className="text"> 
+                            <h1>Projects</h1>
+                            <p>Welcome to our virtual lab where open source ideas take shape. Each project is a chance to explore, innovate, and build meaningful solutions together. Here, code becomes creation and collaboration drives every initiative.</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="p-list">
                     { this.renderProjects() }

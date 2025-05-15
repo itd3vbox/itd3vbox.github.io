@@ -23,8 +23,11 @@ export default function RootLayout({
   return (
     <StoreProvider>
       <html lang="en">
+        <head>
+          
+        </head>
         <body>
-          <PageAnimation />
+          {/* <PageAnimation /> */}
           <PageTop />
           <PageMain>{ children }</PageMain>
           <PageEnd />

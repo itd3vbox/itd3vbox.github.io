@@ -86,7 +86,12 @@ export default class Docs extends React.Component<any, DocsState>
             <div id="docs">
                 <div className="d-top">
                     <div className="block-left"></div>
-                    <div className="block-right"></div>
+                    <div className="block-right">
+                        <div className="text"> 
+                            <h1>DOCS</h1>
+                            <p>Documents designed to guide you, whether you're building your own projects or contributing to those shared here. Get inspired, explore, and code.</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="d-list">
                     { this.renderDocs() }

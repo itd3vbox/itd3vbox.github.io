@@ -1,4 +1,4 @@
-export default [
+export default [ 
     {
         title: 'HTML',
         description: 'The language to organize the content of web pages.',
@@ -37,6 +37,11 @@ export default [
     {
         title: 'Laravel',
         description: 'The back-end framework in PHP to build applications easily.',
+        readme: '#',
+    },
+    {
+        title: 'WordPress',
+        description: 'A powerful CMS built on PHP to create and manage websites with ease.',
         readme: '#',
     },
 ];

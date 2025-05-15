@@ -30,12 +30,12 @@ export default function PageTop()
                   <Link href='/projects'>Projects</Link>
                   <Link href='/docs'>Docs</Link>
                 </li>
-                <li className="btn-animation">
+                {/* <li className="btn-animation">
                   <button type="button"
                     onClick={handleToggle}>
                     <PlayIcon />
                   </button>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
