@@ -89,7 +89,7 @@ export default class Docs extends React.Component<any, DocsState>
                     <div className="block-right">
                         <div className="text"> 
                             <h1>DOCS</h1>
-                            <p>Documents designed to guide you, whether you're building your own projects or contributing to those shared here. Get inspired, explore, and code.</p>
+                            <p>Documents designed to guide you, whether you&apos;re building your own projects or contributing to those shared here. Get inspired, explore, and code.</p>
                         </div>
                     </div>
                 </div>

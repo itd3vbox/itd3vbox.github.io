@@ -1,4 +1,4 @@
-export default [ 
+const webData = [ 
     {
         title: 'HTML',
         description: 'The language to organize the content of web pages.',
@@ -45,3 +45,5 @@ export default [
         readme: '#',
     },
 ];
+
+export default webData;
