@@ -1,0 +1,136 @@
+.h-dream-big
+    width: 100%
+    box-sizing: border-box
+    padding: 50px 10px
+    overflow: hidden
+
+    .hdb-wrapper
+        width: 100%
+        max-width: 1300px
+        margin: auto
+
+        & > h2,
+        & > p
+            text-align: center
+        & > h2
+            font-size: 1.3rem
+        & > p
+            font-size: 1.1rem
+            margin: 10px
+
+        .goals
+            margin-top: 50px
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-wrap: wrap
+            gap: 25px
+
+            .block-possible
+                box-sizing: border-box
+                padding: 25px 10px
+                background-color: var(--color-1)
+                color: var(--color-2)
+                border-radius: 1rem
+
+                & > button.btn-info
+                    border: 1px solid var(--color-2)
+                    color: var(--color-2)
+
+            .block-possible,
+            .block-impossible
+                min-width: 300px
+                flex: 1
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                gap: 25px
+                position: relative
+
+                h3
+                    width: 100%
+                    max-width: 400px
+                    font-size: 1.3rem
+                    text-align: center
+
+                p
+                    width: 100%
+                    max-width: 400px
+                    font-size: 1rem
+
+                img
+                    width: 100%
+                    max-width: 300px
+
+                .frame
+                    width: 300px
+                    height: 300px
+                    position: relative
+                    border-radius: 50%
+                    border: 1px solid var(--color-2)
+                    
+                    button
+                        width: 80px
+                        height: 80px
+                        border-radius: 50%
+                        display: inline-flex
+                        justify-content: center
+                        align-items: center
+                        box-sizing: border-box
+                        border: 1px solid var(--color-2)
+                        background-color: var(--color-1)
+                        color: var(--color-2)
+                        transition: transform 0.3s ease, box-shadow 0.3s ease
+                        svg
+                            width: 50px
+                            height: 50px
+
+                .btn-info
+                    width: 30px
+                    height: 30px
+                    background: var(--color-1)
+                    color: var(--color-2)
+                    border-radius: 50%
+                    box-shadow: 1px 1px 4px #000
+                    svg
+                        width: 15px
+                        
+        .how
+            width: 100%
+            margin-top: 50px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            gap: 25px
+
+            button
+                height: 40px
+                font-size: 20px
+                display: inline-flex
+                align-items: center
+                justify-content: center
+                border-radius: 20px
+                background-color: var(--color-1)
+                color: var(--color-2)
+                box-shadow: 1px 1px 4px #000
+                box-sizing: border-box
+                border: 1px solid var(--color-2)
+                padding: 0 10px
+                svg
+                    width: 20px
+                    height: 20px
+
+            .text
+                width: 100%
+                box-sizing: border-box
+                padding: 25px
+                background-color: var(--color-1)
+                color: var(--color-2)
+                border-radius: 1rem
+                p
+                    font-size: 1rem
+                    text-align: justify
+                    margin-top: 10px
+

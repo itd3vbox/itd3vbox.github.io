@@ -1,0 +1,79 @@
+.h-projects
+    width: 100%
+    box-sizing: border-box
+    padding: 100px 10px
+    background-color: var(--color-1)
+    color: var(--color-2)
+
+    .hp-wrapper
+        width: 100%
+        max-width: 1300px
+        margin: auto
+
+        & > h2,
+        & > p
+            text-align: center
+        & > h2
+            font-size: 1.3rem
+        & > p
+            font-size: 1.1rem
+            margin: 10px
+
+    .hp-projects
+        margin-top: 50px
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-wrap: wrap
+        gap: 25px
+
+        .p-projects
+            display: flex
+            gap: 10px
+            flex-wrap: wrap
+
+            @import './_project'
+
+
+        .p-core
+            flex: 1
+            box-sizing: border-box
+            padding: 10px
+
+            .text
+                width: 100%
+                max-width: 600px
+                font-size: 1rem
+                text-align: justify
+                p
+                    margin-top: 10px
+
+
+    .hp-more
+        width: 100%
+        margin-top: 25px
+        display: flex
+        align-items: center
+        gap: 25px
+
+        .link-more
+            border-radius: 20px
+            display: inline-flex
+            box-sizing: border-box
+            padding: 10px
+            background-color: var(--color-2)
+            color: var(--color-1)
+            font-size: 1rem
+            font-weight: bolder
+            text-transform: uppercase
+
+        p
+            font-size: 1rem
+            font-weight: bolder
+
+
+    @media screen and ( max-width: 1100px )
+        .hp-projects
+            flex-direction: column
+
+                    

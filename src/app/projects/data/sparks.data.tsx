@@ -1,12 +1,18 @@
 export default [
     {
-        name: 'Project Manager',
+        name: 'Spark Management',
         description: 'A project that enables managing and developing other projects, either alone or in a team, with the help of AI.',
         link: 'https://github.com/itd3vbox/project-manager',
         groups: ['Spark'],
     },
     {
-        name: 'Library',
+        name: 'Spark Code',
+    description: 'A mobile-first code editor designed for fast development, anywhere.',
+        link: '#',
+        groups: ['Spark'],
+    },
+    {
+        name: 'Virtual Library',
         description: 'The project allows creating virtual books and building your own virtual library.',
         link: '#',
         groups: ['Spark'],
@@ -17,10 +23,10 @@ export default [
         link: '#',
         groups: ['Spark'],
     },
-    {
-        name: 'Spark',
-        description: 'An AI that connects to various projects to collaborate, create, and more.',
-        link: '#',
-        groups: ['Spark'],
-    },
+    // {
+    //     name: 'Spark',
+    //     description: 'An AI that connects to various projects to collaborate, create, and more.',
+    //     link: '#',
+    //     groups: ['Spark'],
+    // },
 ]

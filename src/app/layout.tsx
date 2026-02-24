@@ -24,7 +24,15 @@ export default function RootLayout({
     <StoreProvider>
       <html lang="en">
         <head>
-          
+          <meta charSet="UTF-8"/>
+          <title>ItD3VBox</title>
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+          <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png"/>
+          <link rel="icon" type="image/png" sizes="512x512" href="/favicon/android-chrome-512x512.png"/>
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-16x16.png"/>
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-32x32.png"/>
+          <link rel="icon" type="image/x-icon" sizes="16x16" href="/favicon/favicon.ico"/>
+          <link rel="manifest" href="/favicon/site.webmanifest"/>
         </head>
         <body>
           {/* <PageAnimation /> */}

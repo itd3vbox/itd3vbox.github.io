@@ -60,7 +60,10 @@ export default class Projects extends React.Component<any, ProjectsState>
                     <div className="block-right">
                         <div className="text"> 
                             <h1>Projects</h1>
-                            <p>Welcome to our virtual lab where open source ideas take shape. Each project is a chance to explore, innovate, and build meaningful solutions together. Here, code becomes creation and collaboration drives every initiative.</p>
+                            <p>
+                                A collection of personal projects, experiments and tools — 
+                                from structured ecosystems like Spark to temporary explorations and prototypes.
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,65 @@
+.h-inner-world
+    width: 100%
+    box-sizing: border-box
+    padding: 100px 10px
+
+    .hiw-wrapper
+        width: 100%
+        max-width: 1300px
+        margin: auto
+
+        & > h2,
+        & > p
+            text-align: center
+        & > h2
+            font-size: 1.3rem
+        & > p
+            max-width: 600px
+            font-size: 1.1rem
+            margin: 10px auto 0 auto
+
+        .frame
+            width: 200px
+            height: 200px
+            border-radius: 50%
+            margin: auto
+            box-sizing: border-box
+            border: 1px solid var(--color-2)
+            margin-top: 25px
+            position: relative
+
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+                object-position: center
+                border-radius: 50%
+
+            .btn-info
+                width: 30px
+                height: 30px
+                background: var(--color-1)
+                color: var(--color-2)
+                border-radius: 50%
+                box-shadow: 1px 1px 4px #000
+                position: absolute
+                bottom: -15px
+                left: 50%
+                transform: translateX(-50%)
+                border: 1px solid var(--color-2)
+                svg
+                    width: 15px
+
+        .text
+            width: 100%
+            max-width: 400px
+            box-sizing: border-box
+            padding: 25px
+            background-color: var(--color-1)
+            color: var(--color-2)
+            border-radius: 1rem
+            margin: 50px auto 0 auto
+            p
+                font-size: 1rem
+                text-align: justify
+                margin-top: 10px
