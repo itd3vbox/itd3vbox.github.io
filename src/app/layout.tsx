@@ -26,6 +26,8 @@ export default function RootLayout({
         <head>
           <meta charSet="UTF-8"/>
           <title>ItD3VBox</title>
+          <meta property="og:title" content="ITD3VBox – Infinite Tinkering, 3 Dimensions, Virtual Box" />
+          <meta property="og:description" content="Build the impossible, dream like a child, invent like an engineer with ITD3VBox." />
           <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
           <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png"/>
           <link rel="icon" type="image/png" sizes="512x512" href="/favicon/android-chrome-512x512.png"/>
