@@ -73,8 +73,21 @@ export default function PageTop()
       setOpenMenu(prev => (prev === menuName ? null : menuName));
     };
 
+    const [isFixed, setIsFixed] = useState(false);
+    useEffect(() => {
+      const onScroll = () => {
+        setIsFixed(window.scrollY >= 50);
+      };
+
+      window.addEventListener('scroll', onScroll);
+      return () => window.removeEventListener('scroll', onScroll);
+    }, []);
+
     return (
-        <div id="page-top" className={ animationState.isEnabled ? 'animation' : '' }>
+        <div
+        id="page-top"
+        className={`${animationState.isEnabled ? 'animation' : ''} ${isFixed ? 'fixed' : ''}`}
+      >
           <div className="wrapper">
             <Link href='/' className="link-app">
               <div className="logo">

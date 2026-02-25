@@ -36,7 +36,7 @@ export default function InnerWorld()
                 
 
                 <div className="text" style={{ display: open ? "block" : "none" }}>
-                    <p>
+                    {/* <p>
                         I have eternity, and within the infinite exists my own infinity.  
                         With instant access to create perfectly,  
                         I choose to limit myself temporarily — to explore, experiment, and build certain things.  
@@ -62,6 +62,12 @@ export default function InnerWorld()
                     <p>
                         And if it becomes possible to bring the impossible projects from my inner world into this material world,  
                         that would be the ultimate — discovering another realm without limits, purely for fun and exploration.
+                    </p> */}
+                    <p>
+                        Meditation is the art of emptiness.  
+                        By clearing the mind, ideas become clearer and solutions emerge naturally.  
+                        After observation and inner exploration, silence creates space for understanding.  
+                        In this void, clarity is born — and even the impossible can become possible.
                     </p>
                 </div>
             </div>

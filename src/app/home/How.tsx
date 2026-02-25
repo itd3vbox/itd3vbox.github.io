@@ -12,7 +12,7 @@ export default function How() {
                 className="btn-show" 
                 onClick={() => setOpen(true)}
             >
-                How I Work
+                The Path
             </button>
 
             {/* Texte détaillé, affiché seulement si open=true */}
