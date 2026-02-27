@@ -28,10 +28,16 @@
 
             .block-possible
                 box-sizing: border-box
-                padding: 25px 10px
-                background-color: var(--color-3)
+                padding: 70px 25px
+                background-color: var(--color-4)
                 color: var(--color-2)
-                border-radius: 1rem
+                border-radius: 4rem
+                overflow: hidden
+                opacity: 0.8
+                background-image:  linear-gradient(var(--color-5) 1px, transparent 1px), linear-gradient(to right, var(--color-5) 1px, var(--color-4) 1px)
+                background-size: 20px 20px
+                box-sizing: border-box
+                border: 1px solid var(--color-5)
 
                 & > button.btn-info
                     border: 1px solid var(--color-2)
@@ -77,14 +83,21 @@
                         display: inline-flex
                         justify-content: center
                         align-items: center
+                        color: var(--color-2)
+                        background-color: var(--color-4)
+                        background-image:  linear-gradient(var(--color-5) 1px, transparent 1px), linear-gradient(to right, var(--color-5) 1px, var(--color-4) 1px)
+                        background-size: 20px 20px
                         box-sizing: border-box
                         border: 1px solid var(--color-2)
-                        background-color: var(--color-3)
-                        color: var(--color-2)
                         transition: transform 0.3s ease, box-shadow 0.3s ease
                         svg
                             width: 50px
                             height: 50px
+
+                        &:hover
+                            box-shadow: inset 1px 1px 4px #000
+                            background-color: var(--color-5)
+                            background-image:  linear-gradient(var(--color-4) 1px, transparent 1px), linear-gradient(to right, var(--color-4) 1px, var(--color-5) 1px)
 
                 .btn-info
                     width: 30px
@@ -124,11 +137,18 @@
 
             .text
                 width: 100%
+                max-width: 700px
                 box-sizing: border-box
                 padding: 25px
-                background-color: var(--color-1)
                 color: var(--color-2)
                 border-radius: 1rem
+                background-color: var(--color-4)
+                opacity: 0.8
+                background-image:  linear-gradient(var(--color-5) 1px, transparent 1px), linear-gradient(to right, var(--color-5) 1px, var(--color-4) 1px)
+                background-size: 20px 20px
+                box-sizing: border-box
+                border: 1px solid var(--color-5)
+
                 p
                     font-size: 1rem
                     text-align: justify

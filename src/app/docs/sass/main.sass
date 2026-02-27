@@ -18,18 +18,16 @@
         .block-right
             height: 300px
             border-radius: 1rem
-            background-color: var(--color-40)
+            background-color: var(--color-5)
 
         .block-left
             width: 300px
-            --s: 100px
-            --c1: #000000
-            --c2: #212121
-            --_s: calc(2*var(--s)) calc(2*var(--s))
-            --_g: var(--_s) conic-gradient(at 40% 40%,#0000 75%,var(--c1) 0)
-            --_p: var(--_s) conic-gradient(at 20% 20%,#0000 75%,var(--c2) 0)
-            background: calc( .9*var(--s)) calc( .9*var(--s))/var(--_p), calc(-.1*var(--s)) calc(-.1*var(--s))/var(--_p), calc( .7*var(--s)) calc( .7*var(--s))/var(--_g), calc(-.3*var(--s)) calc(-.3*var(--s))/var(--_g), conic-gradient(from 90deg at 20% 20%,var(--c2) 25%,var(--c1) 0) 0 0/var(--s) var(--s)
-
+            opacity: 0.8
+            background-size: 20px 20px
+            background-image:  repeating-linear-gradient(0deg, var(--color-5), var(--color-5) 1px, var(--color-4) 1px, var(--color-4))
+            box-sizing: border-box
+            border: 1px solid var(--color-5)
+            
         .block-right
             flex: 1
             box-sizing: border-box
@@ -37,15 +35,11 @@
             display: flex
             justify-content: flex-end
             align-items: center
-            --s: 105px
-            --c1: #000000
-            --c2: #212121
-            --c3: #282828
+            opacity: 0.8
+            background-size: 20px 20px
+            background-image:  repeating-linear-gradient(0deg, var(--color-5), var(--color-5) 1px, var(--color-4) 1px, var(--color-4))
+            border: 1px solid var(--color-5)
 
-            background: conic-gradient(from 75deg,var(--c1)   15deg ,var(--c2) 0 30deg ,#0000 0 180deg, var(--c2) 0 195deg,var(--c1) 0 210deg,#0000 0) calc(var(--s)/2) calc(.5*var(--s)/tan(30deg)), conic-gradient(var(--c1)   30deg ,var(--c3) 0 75deg ,var(--c1) 0 90deg, var(--c2) 0 105deg, var(--c3) 0 150deg,var(--c2) 0 180deg,var(--c3) 0 210deg,var(--c1) 0 256deg, var(--c2) 0 270deg,var(--c1) 0 286deg,var(--c2) 0 331deg,var(--c3) 0)
-            background-size: var(--s) calc(var(--s)/tan(30deg))
-
-            
             .text
                 max-width: 400px
                 text-align: justify

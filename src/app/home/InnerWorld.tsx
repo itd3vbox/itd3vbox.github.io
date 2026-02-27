@@ -64,10 +64,10 @@ export default function InnerWorld()
                         that would be the ultimate — discovering another realm without limits, purely for fun and exploration.
                     </p> */}
                     <p>
-                        Meditation is the art of emptiness.  
-                        By clearing the mind, ideas become clearer and solutions emerge naturally.  
-                        After observation and inner exploration, silence creates space for understanding.  
-                        In this void, clarity is born — and even the impossible can become possible.
+                        Meditation is the art of emptiness. By clearing the mind, ideas become clearer, and solutions arise naturally. Through observation and inner exploration, silence creates space for understanding. In this void, clarity is born — and even the impossible can become possible.
+                        At the same time, the material world matters: dedicating focused hours — 2 to 4 hours per day, 10 to 20 hours per week — to work and creating digital products is essential for a developer or graphic designer.
+                        Yet the rest of life should be fully enjoyed: spending time in nature, cooking, being with family, watching a movie, or simply living. Technology, especially AI, opens countless possibilities and eases many tasks, though many challenges still remain.
+                        True balance lies at the intersection of creation, exploration, and enjoyment — where meaningful work and a fulfilling life meet.
                     </p>
                 </div>
             </div>
