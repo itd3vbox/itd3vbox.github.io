@@ -183,6 +183,9 @@ export default function Page()
                                 <button type="button" className='project'>
                                     <SparklesIcon />
                                 </button>
+                                <button type="button" className='project'>
+                                    <SparklesIcon />
+                                </button>
                             </div>
                             <p className="description-short">
                                 Build apps, games, and learning tools — consolidate knowledge and enjoy creative experiments from a smartphone or laptop.

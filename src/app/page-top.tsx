@@ -120,9 +120,10 @@ export default function PageTop()
                         className={`menu ${openMenu === 'projects' ? 'open' : ''}`}
                         style={!isMobile ? menuStyles['projects'] : undefined}
                       >
-                      <Link href='/projects' className='item'>Spark Management</Link>
-                      <Link href='/projects' className='item'>Spark Code</Link>
+                      <Link href='/spark-management' className='item'>Spark Management</Link>
+                      <Link href='/spark-code' className='item'>Spark Code</Link>
                       <Link href='/projects' className='item'>Virtual Library</Link>
+                      <Link href='/calculator' className='item'>Calculator</Link>
                     </div>
                   </div>
                 </li>
