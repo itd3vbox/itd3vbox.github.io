@@ -94,7 +94,7 @@ export default function Page()
                                     
                                 </div>
                                 <div className="core">
-                                    <a href="https://github.com/itd3vbox/project-manager-react" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/itd3vbox/spark-code" target="_blank" rel="noopener noreferrer">
                                         <EyeIcon />
                                     </a>
                                     <h3>Spark Code</h3>
@@ -174,16 +174,19 @@ export default function Page()
                         <div className="block-possible">
                             <h3>Possible Projects</h3>
                             <div className="frame"  ref={frameRef}>
-                                <button type="button" className='project'>
+                                <button type="button" className='project btn-spark-code'>
                                     <SparklesIcon />
                                 </button>
-                                <button type="button" className='project'>
+                                <button type="button" className='project btn-spark-management'>
                                     <SparklesIcon />
                                 </button>
-                                <button type="button" className='project'>
+                                <button type="button" className='project btn-virtual-library'>
                                     <SparklesIcon />
                                 </button>
-                                <button type="button" className='project'>
+                                <button type="button" className='project btn-virtual-school'>
+                                    <SparklesIcon />
+                                </button>
+                                <button type="button" className='project btn-calculator'>
                                     <SparklesIcon />
                                 </button>
                             </div>

@@ -18,6 +18,12 @@ export default [
         groups: ['Spark'],
     },
     {
+        name: 'Virtual School',
+        description: 'This project allows users to create their own learning programs and build a personalized virtual school.',
+        link: '#',
+        groups: ['Spark'],
+    },
+    {
         name: 'Calculator',
         description: 'A modular calculator for creating virtual simulations.',
         link: '#',

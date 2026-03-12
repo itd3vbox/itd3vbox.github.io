@@ -122,7 +122,8 @@ export default function PageTop()
                       >
                       <Link href='/spark-management' className='item'>Spark Management</Link>
                       <Link href='/spark-code' className='item'>Spark Code</Link>
-                      <Link href='/projects' className='item'>Virtual Library</Link>
+                      <Link href='/virtual-library' className='item'>Virtual Library</Link>
+                      <Link href='/virtual-school' className='item'>Virtual School</Link>
                       <Link href='/calculator' className='item'>Calculator</Link>
                     </div>
                   </div>
