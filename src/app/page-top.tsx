@@ -146,6 +146,9 @@ export default function PageTop()
                     </div>
                   </div>
                 </li>
+                <li>
+                  <Link href='/sparks' className='item'>Sparks</Link>
+                </li>
                 {/* <li className="btn-animation">
                   <button type="button"
                     onClick={handleToggle}>
