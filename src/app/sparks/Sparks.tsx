@@ -55,9 +55,9 @@ export default class Sparks extends React.Component<any, SparksState>
                     <button type="button" className={"stm-item" + ( this.state.tabsIndexSelected === 1 ? ' selected' : '' )}
                         onClick={ () => this.handleOnTabsMenuItemSelected(1) }>Overview</button>
                     <button type="button" className={"stm-item" + ( this.state.tabsIndexSelected === 2 ? ' selected' : '' )}
-                        onClick={ () => this.handleOnTabsMenuItemSelected(2) }>Vitual Entreprise</button>
+                        onClick={ () => this.handleOnTabsMenuItemSelected(2) }>Vitual Entreprises</button>
                     <button type="button" className={"stm-item" + ( this.state.tabsIndexSelected === 3 ? ' selected' : '' )}
-                        onClick={ () => this.handleOnTabsMenuItemSelected(3) }>Contribution</button>
+                        onClick={ () => this.handleOnTabsMenuItemSelected(3) }>Contributions</button>
                 </div>
                 <div className="s-tabs-contents">
                     <div className={"stc-content" + ( this.state.tabsIndexSelected === 1 ? ' selected' : '' )}>

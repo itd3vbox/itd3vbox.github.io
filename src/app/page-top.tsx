@@ -120,11 +120,11 @@ export default function PageTop()
                         className={`menu ${openMenu === 'projects' ? 'open' : ''}`}
                         style={!isMobile ? menuStyles['projects'] : undefined}
                       >
-                      <Link href='/spark-management' className='item'>Spark Management</Link>
-                      <Link href='/spark-code' className='item'>Spark Code</Link>
-                      <Link href='/virtual-library' className='item'>Virtual Library</Link>
-                      <Link href='/virtual-school' className='item'>Virtual School</Link>
-                      <Link href='/calculator' className='item'>Calculator</Link>
+                      <Link href='/projects/spark-management' className='item'>Spark Management</Link>
+                      <Link href='/projects/spark-code' className='item'>Spark Code</Link>
+                      <Link href='/projects/virtual-library' className='item'>Virtual Library</Link>
+                      <Link href='/projects/virtual-school' className='item'>Virtual School</Link>
+                      <Link href='/projects/calculator' className='item'>Calculator</Link>
                     </div>
                   </div>
                 </li>
@@ -140,9 +140,11 @@ export default function PageTop()
                         className={`menu ${openMenu === 'docs' ? 'open' : ''}`}
                         style={!isMobile ? menuStyles['docs'] : undefined}
                       >
-                      <Link href='/projects' className='item'>Python</Link>
-                      <Link href='/projects' className='item'>C</Link>
-                      <Link href='/projects' className='item'>Web</Link>
+                      <Link href='/docs/python' className='item'>Python</Link>
+                      <Link href='/docs/c' className='item'>C</Link>
+                      <Link href='/docs/web' className='item'>Web</Link>
+                      <Link href='/docs/web' className='item'>Android</Link>
+                      <Link href='/docs/web' className='item'>IOS</Link>
                     </div>
                   </div>
                 </li>
