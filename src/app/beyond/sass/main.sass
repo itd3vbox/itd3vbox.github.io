@@ -1,0 +1,26 @@
+#beyond
+    width: 100%
+    flex: 1
+    display: flex
+    flex-direction: column
+    gap: 50px
+    box-sizing: border-box
+    padding: 50px 10px
+    position: relative
+
+    &::before
+        content: ''
+        display: block
+        width: 1px
+        height: 100%
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        background-color: var(--color-16)
+
+    @import './_zero'
+    @import './_tabs'
+    @import './_logical-path'
+    @import './_inner-path'
+    @import './_end'
