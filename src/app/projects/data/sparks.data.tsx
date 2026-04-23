@@ -2,7 +2,7 @@ export default [
     {
         name: 'Spark Management',
         description: 'A project that enables managing and developing other projects, either alone or in a team, with the help of AI.',
-        link: 'https://github.com/itd3vbox/project-manager',
+        link: 'https://github.com/itd3vbox/spark-management',
         groups: ['Spark'],
     },
     {

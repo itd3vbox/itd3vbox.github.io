@@ -7,18 +7,18 @@ import {
 } from '@heroicons/react/24/outline';
 
 
-interface ComponentClassProps
+interface VirtualLibraryProps
 {
     
 }
 
 
-interface ComponentClassState
+interface VirtualLibraryState
 {
     
 }
 
-export default class ComponentClass extends React.Component<any, ComponentClassState>
+export default class VirtualLibrary extends React.Component<any, VirtualLibraryState>
 {
 
     constructor(props: any)
@@ -32,8 +32,8 @@ export default class ComponentClass extends React.Component<any, ComponentClassS
     render()
     {
         return (
-            <div className="component">
-            {/* Reusable Component ... copy this model */}
+            <div id="virtual-library">
+                
             </div>
         )
     }

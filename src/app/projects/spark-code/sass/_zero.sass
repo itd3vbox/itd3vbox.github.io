@@ -1,0 +1,48 @@
+.zero
+    width: 100%
+    max-width: 1000px
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    gap: 25px
+    margin: 0 auto
+    background-color: var(--color-3)
+    box-sizing: border-box
+    padding: 10px
+    border-radius: 1rem
+    
+    .block-frame
+        width: 500px
+        height: 300px
+        border-radius: 1rem
+        box-sizing: border-box
+        border: 1px solid var(--color-3)
+
+        background-color: var(--color-4)
+        opacity: 0.8
+        background-image:  linear-gradient(var(--color-3) 1px, transparent 1px), linear-gradient(to right, var(--color-3) 1px, var(--color-4) 1px)
+        background-size: 20px 20px
+        
+    .block-text
+        flex: 1
+        min-width: 400px
+        display: flex
+        align-items: center
+        justify-content: center
+        box-sizing: border-box
+        padding: 25px
+
+        .text
+            max-width: 500px
+
+            h1
+                margin-bottom: 50px
+
+    @media screen and ( max-width: 550px )
+        .block-frame
+            width: 100%
+
+        .block-text
+            min-width: auto 
+
+    
