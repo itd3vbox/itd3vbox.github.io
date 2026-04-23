@@ -86,7 +86,7 @@ export default class SpatkCode extends React.Component<any, SpatkCodeState>
                     <div className="block-frame"></div>
                     <div className="block-text">
                         <div className="text">
-                            <h1>⚡Spark Code</h1>
+                            <h1>Spark Code</h1>
                             <p>A lightweight mobile code editor designed for fast development over SSH.</p>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ export default class SpatkCode extends React.Component<any, SpatkCodeState>
 
                 <section className="overview">
                     <div className="text">
-                        <h2>🧠 Concept</h2>
+                        <h2>Concept</h2>
                         <p>
                             Spark Code is a mobile-optimized code editor designed for fast remote development via SSH.
                             It allows you to edit, test, and manage code directly from your smartphone.
