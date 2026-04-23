@@ -2,13 +2,13 @@ export default [
     {
         name: 'Spark Management',
         description: 'A project that enables managing and developing other projects, either alone or in a team, with the help of AI.',
-        link: 'https://github.com/itd3vbox/spark-management',
+        link: 'https://itd3vbox.github.io/projects/spark-management',
         groups: ['Spark'],
     },
     {
         name: 'Spark Code',
     description: 'A mobile-first code editor designed for fast development, anywhere.',
-        link: 'https://github.com/itd3vbox/spark-code',
+        link: 'https://itd3vbox.github.io/projects/spark-code',
         groups: ['Spark'],
     },
     {
