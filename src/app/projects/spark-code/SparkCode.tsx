@@ -127,7 +127,7 @@ export default class SpatkCode extends React.Component<any, SpatkCodeState>
                         </div>
 
                     </div>
-                    <p>
+                    <p className="ambient">
                         A new way to code remotely — from your couch or workspace. Connect to remote servers instantly and build with AI assistance.
                     </p>
                 </section>
