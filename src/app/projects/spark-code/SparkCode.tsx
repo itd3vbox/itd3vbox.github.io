@@ -10,7 +10,9 @@ import {
   DocumentTextIcon,
   CloudArrowUpIcon,
   CpuChipIcon,
-  TrashIcon
+  TrashIcon,
+  ArrowDownLeftIcon,
+  ArrowDownRightIcon
 } from "@heroicons/react/24/outline";
 
 
@@ -87,6 +89,9 @@ export default class SpatkCode extends React.Component<any, SpatkCodeState>
                     <div className="block-text">
                         <div className="text">
                             <h1>Spark Code</h1>
+                            <a href="https://github.com/itd3vbox/spark-code">
+                                <ArrowDownRightIcon /> GITHUB
+                            </a>
                             <p>A lightweight mobile code editor designed for fast development over SSH.</p>
                         </div>
                     </div>
@@ -170,6 +175,9 @@ export default class SpatkCode extends React.Component<any, SpatkCodeState>
                                 Spark Code runs on Android and iOS, and is fully open-source.
                                 You can build, compile, and customize it directly from GitHub.
                             </p>
+                            <a href="https://github.com/itd3vbox/spark-code">
+                                <ArrowDownRightIcon /> GITHUB
+                            </a>
                         </div>
                     </div>
 

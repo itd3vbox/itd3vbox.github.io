@@ -8,7 +8,7 @@ export default [
     {
         name: 'Spark Code',
     description: 'A mobile-first code editor designed for fast development, anywhere.',
-        link: '#',
+        link: 'https://github.com/itd3vbox/spark-code',
         groups: ['Spark'],
     },
     {
