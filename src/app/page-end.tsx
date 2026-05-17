@@ -19,6 +19,7 @@ export default function PageEnd()
                 </div>
                 <div className="block-right">
                     <div className="app-name">ItD3VBox</div>
+                    <div className="email">it.d3vbox@gmail.com</div>
                     <div className="theme">
                         <div className="name">From Zero</div>
                         <div className="version">V. 1.0.0</div>
